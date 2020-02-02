@@ -1,0 +1,20 @@
+{
+  "name": "Bitsbox Coffee Status",
+  "version": "1.0",
+  "description": "An extension to help notify people when there is coffee available.",
+  "permissions": ["notifications", "storage"],
+  "background": {
+    "page": "background.html",
+    "persistent": false
+  },
+  "icons": {
+    "16": "images/coffee-icon16.png",
+    "48": "images/coffee-icon48.png",
+    "128": "images/coffee-icon128.png"
+  },
+  "browser_action": {
+    "default_icon": "images/coffee-icon48.png"
+  },
+  "content_security_policy":"script-src 'self' https://www.gstatic.com/ https://*.firebaseio.com https://www.googleapis.com; object-src 'self'",
+  "manifest_version": 2
+}

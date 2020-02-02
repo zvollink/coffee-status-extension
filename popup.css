@@ -1,0 +1,70 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Bangers|Fredoka+One&display=swap');
+
+html {
+  height: 185px;
+}
+body {
+  padding: 10px;
+}
+h2 {
+  font-family: 'Fredoka One', cursive;
+  font-size: 25px;
+  display: inline;
+}
+#close-btn {
+	position: absolute;
+	top: 5px;
+	right: 10px;
+	color: #000;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  float: right;
+  cursor: pointer;
+}
+.steaming-coffee {
+  width: 65px;
+  display: inline-block;
+  margin: -8px 15px;
+}
+#header-area {
+	width: max-content;
+}
+.action-button {
+	display: block;
+	margin: 0 auto;
+  border-radius: 4px;
+  background: #46c3caf7;
+  color: white;
+  font-weight: 600;
+}
+#name {
+	width: 100%;
+}
+#submit-name {
+	float: right;
+	margin-top: 10px;
+}
+#coffee-status-text {
+	font-size: 14px;
+}
+#status-updated {
+	text-align: center;
+	margin-top: 19px;
+	color: #46c3caf7;
+}
+.hidden {
+	display: none;
+}
+
+iframe {
+	border: none;
+	width: inherit;
+	height: inherit;
+}
+.displaying-iframe {
+	margin: 0;
+	padding: 0;
+	height: 189px;
+}

@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <title>Bitsbox Coffee Status Extension</title>
+    <link rel="stylesheet" type="text/css" href="popup.css">
+    <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-firestore.js"></script>
+  </head>
+  <body>
+    <div id="close-btn">x</div>
+    <div id="header-area">
+      <h2>Hi <span id="username"></span>!</h2>
+      <img src="images/coffee-icon128-with-steam.png" class="steaming-coffee">
+    </div>
+    <p id="coffee-status-text">Checking coffee status...</p>
+    <p id="status-updated" class="hidden">Status updated!</p>
+    <script src="main.js"></script>
+  </body>
+</html>
